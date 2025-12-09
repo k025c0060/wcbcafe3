@@ -76,6 +76,9 @@ img {
 }
 
 /*HOME*/
+.cover-home {
+    background-image: url(../images/cover-home-s.webp);
+}
 .about {
     max-width: 736px;
     padding: 0 1.5rem;
@@ -84,6 +87,12 @@ img {
 .about p {
     margin-bottom: 3rem;
 }
+
+/*NEWS*/
+.cover-news {
+    background-image: url(../images/cover-news-s.webp);
+}
+
 /*MENU*/
 .cover-menu {
     background-image: url(../images/cover-menu-s.webp);
@@ -272,7 +281,18 @@ item p {
         height: 94.5%;
         width: 100%;
     }
+    /*HOME*/
+    .cover-home {
+        background-image: url(../images/cover-home-l.webp);
+    }
+    .about {
+        margin: 4rem auto 0;
+    }
 
+    /*NEWS*/
+    .cover-news {
+        background-image: url(../images/cover-news-l.webp);
+    }
     .news-contents {
         display: flex;
         justify-content: space-between;
